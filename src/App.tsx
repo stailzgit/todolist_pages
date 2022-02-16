@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import TodoList from "./pages/Todolist/TodoList";
 import NavBar from "./Components/Navabar/NavBar";
 import styles from './App.module.css'
@@ -14,7 +14,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/todolist" element={<TodoList />} />
-                <Route path="*" element={<h1>404: PAGE NOT FOUND</h1>}/>
+                <Route path="*" element={<About />} />
             </Routes>
         </div>
     );
