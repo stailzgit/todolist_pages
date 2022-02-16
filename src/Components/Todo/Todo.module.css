@@ -1,0 +1,60 @@
+.WrapTodo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    min-height: 50px;
+    margin: 10px;
+}
+
+.TodoInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+
+    height: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    vertical-align: middle;
+    min-width: 600px;
+    width: 600px;
+    border: none;
+    background: palegoldenrod;
+}
+
+.todoCompleted {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.CheckBox {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.Date {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    min-width: 60px;
+    font-size: 13px;
+}
+
+.BtnDel {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transition: 0.2s;
+    margin-left: 5px;
+}
+
+.BtnDel:hover {
+    transform: scale(1.1);
+}
+

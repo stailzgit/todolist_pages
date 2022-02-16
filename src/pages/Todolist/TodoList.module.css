@@ -1,0 +1,14 @@
+.WrapApp {
+
+}
+
+
+.WrapTodoList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.InnerTodoList {
+    max-width: 1000px;
+}

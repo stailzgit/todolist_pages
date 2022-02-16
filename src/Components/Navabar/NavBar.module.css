@@ -1,0 +1,29 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    z-index: 100;
+    background: palegoldenrod;
+
+}
+
+.NavList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavItem {
+    list-style-type: none;
+}
+
+.NavItem > a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+
+}
+

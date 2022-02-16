@@ -1,0 +1,61 @@
+.Wrap {
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Inner {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    margin-right: 10px;
+}
+
+.Input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+.BtnAdd {
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: .4em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+
+.BtnAdd:hover {
+    background: rgb(53, 167, 110);
+}
+
+.BtnAdd:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.ErrorMsg {
+    position: absolute;
+    bottom: -25px;
+    color: red;
+}
